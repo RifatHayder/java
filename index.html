@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>mac-book</title>
+    <!-- bootstrap link  -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-KyZXEAg3QhqLMpG8r+8fhAXLRk2vvoC2f3B09zVXn8CA5QIVfZOJ3BCsw2P0p/We" crossorigin="anonymous">
+</head>
+<body>
+    <!-- main part start  -->
+  <main>
+      <section class="container my-5">
+          <!-- image  -->
+        <div class="row">
+            <div class="col-12 col-md-6 g-2 px-3">
+                <img src="images/mac.png" alt="image" class="img-fluid">
+            </div>
+            <!-- descriptions and all  -->
+            <div class="col-12 col-md-6 ">
+                <h2>Customized your Blue 24-inch iMac with apple M1 chip</h2>
+                <p>The Apple Blue (MJV93ZP/A) iMac comes with Apple M1 chip (8 Core CPU and 7 Core GPU), Retina 24" 4K 4096 x 2304 P3 display, 8GB RAM + 256GB SSD, Apple Integrated 7-core GPU, 1080p FaceTime HD camera with M1 ISP. </p>
+
+                <div class="mt-4">
+                    <h6 class="fw-bold">Memory</h6>
+                    <button  type="button" class="btn btn-outline-secondary" id="memory1">8GB Unified Memory</button>
+                    <button type="button" class="btn btn-outline-secondary" id="memory2">16GB Unified Memory</button>
+                </div>
+                <div class="mt-4">
+                    <h6 class="fw-bold">Storage</h6>
+                    <button type="button" class="btn btn-outline-secondary" id="storage1">256GB SSD storage</button>
+                    <button type="button" class="btn btn-outline-secondary" id="storage2">512GB SSD storage</button>
+                    <button type="button" class="btn btn-outline-secondary" id="storage3">1TB SSD storage</button>
+                </div>
+                <div class="mt-4">
+                    <h6 class="fw-bold">Chose your delivary option</h6>
+                    <button type="button" class="btn btn-outline-secondary" id="free">Friday, Aug 25 FREE prime Delivary</button>
+                    <button type="button" class="btn btn-outline-secondary" id="express">Friday, Aug 21 Delivary charge $20</button>
+                
+                </div>
+                <!-- price table  -->
+                <table class="table my-4">
+
+                    <tbody>
+                      <tr class="fw-bold">
+                        <td>Best Prize</td>
+                        <td>$ <span id="price">1299</span></td>
+                      </tr>
+                      <tr class="fw-bold">
+                        <td>Extra Memory Cost</td>
+                        <td>$ <span id="memory">0</span></td>
+                      </tr>
+                      <tr class="fw-bold">
+                        <td>Extra Storage Cost</td>
+                        <td>$ <span id="storage">0</span></td>
+                      </tr>
+                      <tr class="fw-bold" style="border-bottom: 2px solid black ;">
+                        <td>Delivary Charge</td>
+                        <td>$ <span id="delivary">0</span></td>
+                      </tr>
+                      <tr class="fw-bold">
+                        <td>Total price</td>
+                        <td>$ <span id="total">1299</span></td>
+                      </tr>
+                     
+                    </tbody>
+                  </table>
+                  <div class="promo">
+                      <p>Add Pomo code</p>
+                      <input type="text"  id="fild">
+                      <button type="button" class="btn btn-danger" id="apply">Apply</button>
+                  </div>
+            </div>
+            
+        </div>
+        <div class="text-center fw-bold my-5">
+            <h1>Total:$ <span id="grand-total">1299</span></h1>
+        </div>
+      </section>
+
+  </main>
+    
+
+
+
+    <!-- bootstrap script  -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.0/dist/js/bootstrap.bundle.min.js" integrity="sha384-U1DAWAznBHeqEIlVSCgzq+c9gqGAJn5c/t99JyeKa9xxaYpSvHU5awsuZVVFIhvj" crossorigin="anonymous"></script>
+    <!-- custom script  -->
+    <script src="script/mac.js"></script>
+
+</body>
+</html>
